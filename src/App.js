@@ -1,25 +1,48 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>歡迎使用「租.事」</h1>
+      <p>
+        <a 
+          href="https://play.google.com/store/apps/details?id=com.example.android" 
+          target="_blank" 
           rel="noopener noreferrer"
+          style={{
+            textDecoration: 'none',
+            color: '#007BFF',
+            fontWeight: 'bold'
+          }}
         >
-          Learn React
+          Android App 應用下載連結 
         </a>
-      </header>
+      </p>
+
+      <p>
+        <a 
+          href="https://apps.apple.com/us/app/example-ios/id1234567890" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: 'none',
+            color: '#007BFF',
+            fontWeight: 'bold'
+          }}
+        >
+          iOS App 應用下載連結
+        </a>
+      </p>
+      <img 
+        src="/images/ok_rent_banner.jpg" 
+        alt="找租事 Logo"
+        style={{ width: "80%", maxWidth: "600px" }}
+      />
+      <p>出租大小事，諸事 OK！</p>
     </div>
-  );
+  ); 
 }
 
 export default App;
