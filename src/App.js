@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import rentBanner from './assets/ok_rent_banner.jpg';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
 
       <p>
         <a 
-          href="https://apps.apple.com/us/app/example-ios/id1234567890" 
+          href="https://apps.apple.com/tw/app/%E7%A7%9F-%E4%BA%8B/id6738840601" 
           target="_blank" 
           rel="noopener noreferrer"
           style={{
@@ -34,9 +34,10 @@ function App() {
         >
           iOS App 應用下載連結
         </a>
-      </p>
+      </p> 
+
       <img 
-        src="/images/ok_rent_banner.jpg" 
+        src={rentBanner} 
         alt="找租事 Logo"
         style={{ width: "80%", maxWidth: "600px" }}
       />
