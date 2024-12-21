@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Ok-rent-web/static/css/main.f855e6bc.css",
-    "main.js": "/Ok-rent-web/static/js/main.bf7ceaac.js",
+    "main.js": "/Ok-rent-web/static/js/main.93800e91.js",
     "static/js/488.87f4c139.chunk.js": "/Ok-rent-web/static/js/488.87f4c139.chunk.js",
     "static/media/ok_rent_banner.jpg": "/Ok-rent-web/static/media/ok_rent_banner.b0306bc3744d103354e4.jpg",
     "index.html": "/Ok-rent-web/index.html",
     "main.f855e6bc.css.map": "/Ok-rent-web/static/css/main.f855e6bc.css.map",
-    "main.bf7ceaac.js.map": "/Ok-rent-web/static/js/main.bf7ceaac.js.map",
+    "main.93800e91.js.map": "/Ok-rent-web/static/js/main.93800e91.js.map",
     "488.87f4c139.chunk.js.map": "/Ok-rent-web/static/js/488.87f4c139.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.bf7ceaac.js"
+    "static/js/main.93800e91.js"
   ]
 }
