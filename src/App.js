@@ -69,7 +69,7 @@ function App() {
             >
               App Store
             </a>{" "} 
-            搜尋「租.事」即可下載。
+            搜尋「租.事」即可下載（或點擊超連結）。
           </p>
         </section>
       </div>
